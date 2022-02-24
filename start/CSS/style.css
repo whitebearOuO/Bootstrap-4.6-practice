@@ -8,6 +8,11 @@ p,a,input,label,textarea,span,ul,li
     font-family: 'Open Sans', sans-serif;;
 }
 
+p
+{
+    color: #707070;
+}
+
 .btn
 {
     background: #f05f5c;
@@ -19,6 +24,7 @@ p,a,input,label,textarea,span,ul,li
 #intro .jumbotron
 {
     height: 70vh;
+    margin-bottom: 0px;
 }
 
 #intro h1
@@ -35,4 +41,25 @@ p,a,input,label,textarea,span,ul,li
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+header nav img
+{
+    width: 175px;
+}
+
+header li
+{
+    margin: 0 10px;
+}
+
+#second
+{
+    padding: 80px 0px;
+}
+
+h3
+{
+    font-size: 36px;
+    line-height: 1.5;
 }
